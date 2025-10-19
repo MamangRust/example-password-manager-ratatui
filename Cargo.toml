@@ -6,3 +6,8 @@ edition = "2021"
 [dependencies]
 crossterm = "0.28.1"
 ratatui = "0.29.0"
+aes-gcm = { version = "0.10", features = ["aes"] }
+rand = "0.8"
+base64 = "0.21"
+sha2 = "0.10"
+dotenv = "0.15.0"
